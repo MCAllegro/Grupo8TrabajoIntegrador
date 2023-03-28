@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="header">
+            <h2> Crear Cuenta</h2>
+
+        </div>
+        <form id="form" class="form" action="registrar.php" method="post" onsubmit="return Validar();">
+            <div class="form-control">
+<label for="username"> Usuario</label>
+<input type="text" placeholder="grovrvas" id="username">
+
+<small> error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email"> Email</label>
+                <input type="text" placeholder="grovrvas.com" id="email">
+               
+                <small> error message</small>
+                            </div>
+
+                            <div class="form-control">
+                                <label for="password"> Password</label>
+                                <input type="text" placeholder="password" id="password">
+                               
+                                <small> error message</small>
+                                            </div>   
+                                            
+                                            <div class="form-control">
+                                                <label for="password2"> Password2</label>
+                                                <input type="password2" placeholder="password2" id="password2">
+                                                
+                                                <small> error message</small>
+                                                            </div>
+    <p class="form__link">¿ ya tienes una cuenta? <a href="#">Ingresa aqui</a></p>                                                        
+   <button> submit </button>      
+   
+   
+        </form>
+        
+    </div>
+       <script src="main.js" > </script>
+    
+</body>
+</html>
